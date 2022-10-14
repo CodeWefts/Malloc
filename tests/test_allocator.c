@@ -6,9 +6,10 @@
 void test_alloc()
 {
    // MALLOC
-   int* a = malloc(sizeof(int));
-   *a = 10;
-   printf("(malloc) a = %d\n", *a);
+   m_show_info();
+   
+   int* a = m_malloc(sizeof(int));
+   printf("\n(malloc) a = %d\n", *a);
 }
  
 int main()
