@@ -14,7 +14,8 @@ CREATION DES FONCTIONS DU PROJET :
 
 Dans le fichier m_allocator.c on cree les fonctions 
 
-- void m_show_info(Metadata* meta) - 
+- void m_show_info(Metadata* meta)
+ 
   Affiche les informations du projet
 
 - Metadata* get_free_block(size_t size)
