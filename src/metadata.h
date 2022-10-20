@@ -7,6 +7,8 @@ typedef struct Metadata
    struct Metadata* next;
    bool busy; // False , si non-defini 
    long unsigned int arraySize;
-   void* adressArray;
+   void* addressArray;
 
 } Metadata;
+
+Metadata* split(Metadata* data, size_t size);
