@@ -271,7 +271,7 @@ void* m_realloc(void* ptr, size_t size)
             {
                tableau[i] = 0;
             }
-         } // FINDU BLOC QUI COPIE
+         } // FIN DU BLOC QUI COPIE
 
          return tableau;
 
